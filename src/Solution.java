@@ -1,6 +1,5 @@
 /**
  * Date 19/06/17
- *
  * @author Ankit Jain
  */
 public class Solution {
