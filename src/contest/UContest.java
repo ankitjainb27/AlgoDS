@@ -1,7 +1,5 @@
-package stack;
+package contest;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -26,11 +24,17 @@ import java.util.Stack;
  * 2 4
  * 3 4
  */
-public class BalancedBraces {
+public class UContest {
     public static void main(String[] args) {
-        String[] strings = {"{}{}()","{","}","","{[}]","[{)]","{[}]}"};
-        System.out.println(Arrays.toString(braces(strings)));
-        /*Scanner scanner = new Scanner(System.in);
+//        String[] strings = {"{}{}()","{","}","","{[}]","[{)]","{[}]}"};
+//        System.out.println(Arrays.toString(braces(strings)));
+        arrayToMatrixPositionMapping();
+
+    }
+
+    private static void arrayToMatrixPositionMapping()
+    {
+        Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
         int[] arr = new int[N];
         for (int i = 0; i < N; i++) {
@@ -46,7 +50,7 @@ public class BalancedBraces {
         scanner.close();
         for (int i = 0; i < T; i++) {
             System.out.println(element[i]);
-        }*/
+        }
     }
 
     static String[] braces(String[] values) {
