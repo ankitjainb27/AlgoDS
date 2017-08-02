@@ -13,10 +13,11 @@ public class ListNode {
         val = x;
     }
 
-    public void print(ListNode node) {
+    public static void print(ListNode node) {
         while (node != null) {
             System.out.print(node.val);
-            if ((node = node.next) != null) System.out.println(" -> ");
+            if ((node = node.next) != null) System.out.print(" -> ");
         }
+        System.out.println();
     }
 }

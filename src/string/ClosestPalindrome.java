@@ -6,6 +6,7 @@ package string;
 public class ClosestPalindrome {
 
     public static void main(String[] args) {
+        System.out.println((int)' ');
         ClosestPalindrome closestPalindrome =  new ClosestPalindrome();
         System.out.println(closestPalindrome.nearestPalindromic("11"));
     }
